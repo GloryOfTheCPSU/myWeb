@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+    width: 100%;
+}
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+header{
+    height: 800px;
+    background-color: aliceblue; 
+}
+.black-gasket{
+    background-color: #212121;
+    height: 235px;
+}
+.collection{
+    background-color: #fbeacd;
+    height: 250px;
+}
+.t-shirt{
+    height: 472px;
+    background-color: #bea67d;
+}
+.new-model{
+    height: 750px;
+    background-color: #aca9a9;
+}
+.black-gasket-bottom{
+    background-color: #000000;
+    height: 180px;
+}
+.sales{
+    background-color: #b69b9b;
+    height: 750px;
+}
+footer{
+    height: 386px;
+}
+.footer{
+    height: 311px;
+    background-color: #212121;
+}
+.footer-bottom{
+    height: 75px;
+    background-color: #e5e5e5;
+}
