@@ -3,14 +3,15 @@ body{
     margin: 0;
     background-color: #ffffff;
     width: 100%;
-}
-.wrapper{
-    max-width: 1920px;
-    margin: 0 auto;
+    font-family: sans-serif;
 }
 header{
     height: 800px;
     background-color: aliceblue; 
+}
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto;
 }
 .black-gasket{
     background-color: #212121;
@@ -42,8 +43,57 @@ footer{
 .footer{
     height: 311px;
     background-color: #212121;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+}
+.fab{
+    color: firebrick;
+}
+.footer-logo{
+    padding-top: 65px;
+    width: 150px;
+}
+.footer-logo__text{
+    float: right;
+}
+.footer-logo i{
+    font-size: 48px;
+    padding-right: 6px;
+}
+.footer-menu{
+    display: flex;
+    padding-top: 70px;    
+}
+.footer-menu__header{
+    text-transform: uppercase;  
+}
+.footer-menu__items{
+    list-style-type: none;
+    padding: 5px;
+    color: #8ca0a7;
+}
+.footer-menu a{
+    color: #8ca0a7;
+    text-decoration: none;
+}
+.footer-menu a:hover{
+    color: #f4ffff;
 }
 .footer-bottom{
     height: 75px;
     background-color: #e5e5e5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-bottom__item{
+    font-size: 14x;
+   
+}
+.footer-bottom__item:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
 }
