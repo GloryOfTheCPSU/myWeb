@@ -97,3 +97,23 @@ footer{
     cursor: pointer;
     
 }
+.buttonUp{
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 999;
+    border: none;
+    outline: none;
+    background-color: firebrick;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 7px;
+    padding: 7px 7px;
+    font-size: 20px;
+}
+
+.buttonUp:hover {
+    background-color: #ffffff;
+    color: firebrick;
+}
