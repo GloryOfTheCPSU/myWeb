@@ -34,8 +34,39 @@ header{
     height: 180px;
 }
 .sales{
-    background-color: #b69b9b;
+    background-color: #ffffff;
     height: 750px;
+}
+.sales-header{
+    text-align: center;  
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin: 0;
+}
+.sales-gress{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 140px;
+}
+.sales-gress__items p{
+   text-align: center;
+}
+.sales-gress__items p:last-child{
+    color: #D7B399;
+    font-weight: bold;
+}
+.sales-bottom{
+    text-align: center;
+}
+.sales-button{
+    width: 220px;
+    height: 55px;
+    background-color: #D7B399;
+    color: #ffffff;
+    font-size: 14px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 footer{
     height: 386px;
@@ -112,7 +143,6 @@ footer{
     padding: 7px 7px;
     font-size: 20px;
 }
-
 .buttonUp:hover {
     background-color: #ffffff;
     color: firebrick;
